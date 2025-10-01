@@ -1,0 +1,44 @@
+header{
+    font-family: "krub", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav li{
+    border: solid black 1px;
+    border-radius: 5px;
+    text-align: center;
+    width: 3000px;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column; /* apila logo arriba y nav abajo */
+    align-items: center;    /* centra horizontalmente */
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
