@@ -1,8 +1,10 @@
+/* CONFIGURACION GENERAL */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* FONT FAMILY PARA LA PAGINA */
 body{
     font-family: "krub", sans-serif;
     font-weight: 400;

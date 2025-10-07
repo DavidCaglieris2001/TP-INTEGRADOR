@@ -1,4 +1,32 @@
-footer{
-    background-color: rgb(244, 217, 217);
+/* PIE DE PAGINA */
+footer {
+    background-color: #b1b1b1;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+    color: #ffffff; /* podés cambiar este color */
 }

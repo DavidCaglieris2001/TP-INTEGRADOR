@@ -1,26 +1,29 @@
-
-.main-container{
+/* CARRUSEL */
+.portada{
     display: flex;
-    padding: 19px;
-    margin: 20px;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 10px red;
-    justify-content: space-around;
-    font-size: 25px;
+    justify-content: center;
+    padding: 20px;
+
 }
 
-.main-container h1{
-    color: red;
-}
-.main-container .img{  
-    margin: 20px auto;
-    overflow: hidden;
-    border-radius: 10px; 
+.carousel{
+    width: 70vw !important;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px black;
 }
 
-.main-container .img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/* CONTENEDOR DE IMG Y TEXTO */
+.carousel-caption{
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    margin: auto;
+}
+
+.logo-carousel{
+        width: 15vw;
 }
