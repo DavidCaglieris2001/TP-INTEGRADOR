@@ -1,94 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/contacto.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <script src="https://kit.fontawesome.com/af604e32f5.js" crossorigin="anonymous"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/contacto.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <script src="https://kit.fontawesome.com/af604e32f5.js" crossorigin="anonymous"></script>
 
-    <title>La Casa del Electricista</title>
-</head>
-<body>
+        <title>La Casa del Electricista</title>
+    </head>
+    <body>
 
-    <header>
-        <div class="header-container">
-            <div >
-                <a href="index.html">
-                    <img src="img/LOGO-removebg-preview.png" alt="Logo de la empresa" class="logo">
-                </a>
+        <header>
+            <div class="header-container">
+                <div >
+                    <a href="index.html">
+                        <img src="img/logo-removebg-preview (1).png"Logo de la empresa" class="logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="nav-list">
+                        <li class="nav-li"><a href="index.html">Sobre nosotros</a></li>
+                        <li class="nav-li"><a href="productos.html">Productos</a></li>
+                        <li class="nav-li"><a href="contactos.html">Contactos</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul class="nav-list">
-                    <li class="nav-li"><a href="index.html">Sobre nosotros</a></li>
-                    <li class="nav-li"><a href="productos.html">Productos</a></li>
-                    <li class="nav-li"><a href="contactos.html">Contactos</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </header>
+        <main>
+            <!-- FORMULARIO -->
+            <section class="main-container">
+                <form id="contactForm" novalidate>
+                    <h3>Contactanos</h3>
 
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
 
-    <main>
-        <!-- FORMULARIO -->
-        <section class="main-container">
-            <form id="contactForm" novalidate>
-                <h3>Contactanos</h3>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
 
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
 
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
-
-                <label for="descripcion">Descripción</label>
-                <textarea id="descripcion" maxlength="500"></textarea>
-                <p id="contador">0 / 500</p>
+                    <label for="descripcion">Descripción</label>
+                    <textarea id="descripcion" maxlength="500"></textarea>
+                    <p id="contador">0 / 500</p>
                 
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
         
-        <!-- REDES SOCIALES -->
-        <h2>Nuestras redes:</h2>  
-            <div class="redes-container">
+            <!-- REDES SOCIALES -->
+            <h2>Nuestras redes </h2>  
+                <div class="redes-container">
 
-                <div class="redes-items">
-                    <a href="https://www.instagram.com/lacasa_del_electricista?igsh=MTB1c3lxNmo1bTV0OQ==">
-                    <p>Instagram</p>
-                    <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
-                <div class="redes-items">
-                    <a href="https://www.facebook.com/profile.php?id=61572249047536&locale=es_LA">
-                    <p>Facebook</p>
-                    <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </div>
+                    <div class="redes-items">
+                        <a href="https://www.instagram.com/lacasa_del_electricista?igsh=MTB1c3lxNmo1bTV0OQ==">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="redes-items">
+                        <a href="https://www.facebook.com/profile.php?id=61572249047536&locale=es_LA">
+                        <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="redes-items">
+                        <a href="https://api.whatsapp.com/send?phone=543493407033">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
 
+                </div>
+        </main>
+
+        <!-- PIE DE PAGINA -->
+        <footer>
+            <div class="footer-container">
+            <p>Derechos reservados ©2025 -- David Caglieris</p>
+                <nav>
+                    <ul class="footer-nav">
+                        <li class="footer-li"><a href="index.html">Sobre nosotros</a></li>
+                        <li class="footer-li"><a href="productos.html">Productos</a></li>
+                        <li class="footer-li"><a href="contactos.html">Contactos</a></li>
+                    </ul>
+                </nav>
             </div>
-    </main>
+        </footer>
 
-    <!-- PIE DE PAGINA -->
-    <footer>
-        <div class="footer-container">
-        <p>Derechos reservados ©2025</p>
-            <nav>
-                <ul class="footer-nav">
-                    <li class="footer-li"><a href="index.html">Sobre nosotros</a></li>
-                    <li class="footer-li"><a href="productos.html">Productos</a></li>
-                    <li class="footer-li"><a href="contactos.html">Contactos</a></li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-
-<!-- JS PARA FORMULARIO -->
-<script src="js/formulario.js"></script>
-</body>
+        <!-- JS PARA FORMULARIO -->
+        <script src="js/formulario.js"></script>
+    </body>
 </html> 

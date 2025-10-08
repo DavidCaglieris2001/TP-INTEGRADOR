@@ -21,12 +21,16 @@ footer {
     gap: 15px;
 }
 
+.footer-container p{
+    color: #000000;
+}
+
 .footer-nav li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-nav li a:hover {
-    color: #ffffff; /* podés cambiar este color */
+    color: #cd0d15;
 }

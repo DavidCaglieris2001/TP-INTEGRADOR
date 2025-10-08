@@ -1,3 +1,4 @@
+
 /* CARRUSEL */
 .portada{
     display: flex;
@@ -7,23 +8,32 @@
 }
 
 .carousel{
-    width: 70vw !important;
-    background-color: #ffffff;
+    width: 40vw !important;
     border-radius: 30px;
-    padding: 20px;
-    text-align: center;
     box-shadow: 0 4px 10px black;
+}
+
+.carousel-item #img-carousel{
+    margin: auto;
+    width: 100%;
+    max-height: 700px;
+    border-radius: 30px;
+    border-radius: 30px;
 }
 
 /* CONTENEDOR DE IMG Y TEXTO */
 .carousel-caption{
     border-radius: 30px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 50%;
+    background-color: rgba(255, 252, 252, 0.7);
     margin: auto;
 }
 
-.logo-carousel{
-        width: 15vw;
+.carousel-caption h5,
+.carousel-caption p {   
+    color: black;
 }
+    
+.logo-carousel{
+        width: 9vw;
+}
+
